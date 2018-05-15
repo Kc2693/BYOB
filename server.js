@@ -24,7 +24,7 @@ app.get('/api/v1/exercises', (request, response) => {
     .catch(error => response.status(500).json(error))
 });
 
-app.get('/api/v1/muscle-group/:id', (request, response) => {
+app.get('/api/v1/muscle-groups/:id', (request, response) => {
   database('muscle_groups').where('id', request.params.id)
     .then(muscleGroup => {
       if (muscleGroup.length) {
@@ -54,6 +54,38 @@ app.get('/api/v1/exercises/:id', (request, response) => {
     .catch(error => {
       response.status(500).json({ error });
     });
+});
+
+app.post('/api/v1/exercises', (request, response) => {
+    const exercise = request.body;
+
+  for (let requiredParameter of ['exercise', 'level', 'method', 'upper_lower_core', 'joint', 'muscle_group_id']) {
+    if (!exercise[requiredParameter]) {
+      return response
+        .status(422)
+        .send({ error: `You're missing a ${requiredParameter} property.`});
+    }
+  }
+
+  database('exercises').insert(exercise, 'id')
+    .then(exercise => response.status(201).json({ id: exercise[0]}))
+    .catch(error => response.status(500).json({ error }));
+});
+
+app.post('/api/v1/muscle-groups', (request, response) => {
+    const muscleGroup = request.body;
+
+  for (let requiredParameter of ['muscle_group', 'targeted_area', 'train_with']) {
+    if (!muscleGroup[requiredParameter]) {
+      return response
+        .status(422)
+        .send({ error: `You're missing a ${requiredParameter} property.`});
+    }
+  }
+
+  database('muscle_groups').insert(muscleGroup, 'id')
+    .then(muscleGroup => response.status(201).json({ id: muscleGroup[0]}))
+    .catch(error => response.status(500).json({ error }));
 });
 
 app.listen(app.get('port'), () => {
