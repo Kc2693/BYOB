@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Kc2693/BYOB#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "csv-parser": "^1.12.1",
     "express": "^4.16.3",
     "knex": "^0.14.6",
     "pg": "^7.4.3"
