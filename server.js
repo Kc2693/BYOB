@@ -24,6 +24,38 @@ app.get('/api/v1/exercises', (request, response) => {
     .catch(error => response.status(500).json(error))
 });
 
+app.get('/api/v1/muscle-group/:id', (request, response) => {
+  database('muscle_groups').where('id', request.params.id)
+    .then(muscleGroup => {
+      if (muscleGroup.length) {
+        response.status(200).json(muscleGroup);
+      } else {
+        response.status(404).json({
+          error: `Could not find muscle group with id ${request.params.id}`
+        });
+      }
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+});
+
+app.get('/api/v1/exercises/:id', (request, response) => {
+  database('exercises').where('id', request.params.id)
+    .then(exercise => {
+      if (exercise.length) {
+        response.status(200).json(exercise);
+      } else {
+        response.status(404).json({
+          error: `Could not find exercise with id ${request.params.id}`
+        });
+      }
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+});
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on ${app.get('port')}.`);
 });
