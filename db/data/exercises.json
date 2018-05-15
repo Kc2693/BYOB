@@ -1,0 +1,2162 @@
+[
+  {
+    "exercise": "Full Reverse Crunch",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Incline Hip Thrust",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Incline Reverse Crunch",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Lying Hip Thrust",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Reverse Crunch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Reverse Medicine Ball Crunch",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+    "exercise": "Alternating Heel Touch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Bent-Knee Medicine Ball Hip Rotation",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Cable Chop",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Cross Crunch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Cross Crunch w/ Medicine Ball",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Decline Cross Sit-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Decline Sit-Up w/ Twist",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Reverse Cable Chop",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Seated Medicine Ball Twist",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Trunk Rotator",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Obliques"
+  },
+  {
+    "exercise": "Front Plank (from knees)",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Front Plank (from toes)",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Front Plank (tripod - 1 arm and 2 legs or 2 legs and 1 arm)",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Side-Plank (from knees)",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Side-Plank (hip lift)",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Side-Plank (from toes)",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Ab Cycle",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Kneeling Ab Rollout",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Medicine Ball V-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "V-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Weighted V-Up",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Total"
+  },
+  {
+    "exercise": "Bent Knee Sit-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Bent-Knee Crunch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Crunch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Crunch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Decline Crunch",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Decline Sit-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Heel Touch",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Sit-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Weighted Crunch",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Upper"
+  },
+  {
+    "exercise": "Assisted Pull-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Close-Grip Lat Pulldown",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Inverted Pull-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Lat Pulldown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Pull-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Reverse-Grip Lat Pullown",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Reverse-Grip Pull-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "V-Bar Pull-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Wide-Grip Lat Pulldown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Latissimus Dorsi"
+  },
+  {
+    "exercise": "Bent-Over Alternating Dumbbell Row",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Barbell Row",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Dumbbell Row",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Hammer Dumbbell Row",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Long Barbell Row",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Reverse-Grip Barbell Row",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Bent-Over Single-Arm Long Barbell Row",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Machine Row",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "One Arm Dumbbell Row",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Reverse Incline Dumbbell Row",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Rope Cable Row",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Seated Cable Row",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Seated Row",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Single-Arm Cable Row",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Single-Arm Dumbbell Row",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Single-Arm Lat Pulldown",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Standing Cable Row",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Standing Single-Arm Cable Row",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Lat.Dorsi/Rhomboids"
+  },
+  {
+    "exercise": "Alternating Dumbbell Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Alternating Hammer Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Barbell Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Bicep Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Bottom/Top/Full Curls",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Cable Curl",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Concentration Dumbbell Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Cross Body Hammer Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Dumbbell Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "EZ-Bar Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Hammer Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Incline Alternating Dumbbell Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Incline Alternating Hammer Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Incline Dumbbell Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Incline Hammer Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Kneeling Cable Curl",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Lying Cable Curl",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Lying Double Biceps Cable Curl",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Lying High Cable Curl",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Machine Curl",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Overhead Double Biceps Cable Curl",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Overhead Rope Cable Curl",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher Barbell Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher Cable Curl",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher Dumbbell Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher EZ-Bar Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher Hammer Dumbbell Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Preacher Single-Arm Dumbbell Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Reverse Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Rope Cable Curl",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Seated Alternating Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Seated Alternating Hammer Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Seated Dumbbell Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Seated Hammer Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Single-Arm Barbell Curl",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Single-Arm Cable Curl",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Single-Arm Dumbbell Curl w/ Incline Bench",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Spider Curl",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+  },
+  {
+    "exercise": "Barbell Calf Raise",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Calf Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Calf Raise - Seated",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Calf Raise - Standing",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Dumbbell Calf Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Single-Leg Calf Press",
+    "level": "Advanced",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Single-Leg Dumbbell Calf Raise",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Smith Machine Calf Raise",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Gastrocnemius"
+  },
+  {
+    "exercise": "Seated Calf Raise",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Soleus"
+  },
+  {
+    "exercise": "Seated Single-Leg Calf Raise",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Soleus"
+  },
+  {
+    "exercise": "Alternating Dumbbell Bench Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Barbell Bench Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Chest Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Decline Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Decline Smith Machine Bench Press",
+    "level": "Advanced",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Dumbbell Bench Press",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Dumbbell Push-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Elevated Push-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Flat Bench Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Alternating Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Barbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Hammer Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Single-Arm Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Smith Machine Bench Press",
+    "level": "Advanced",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Twisting Dumbbell Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Kneeling Push-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Machine Bench Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Machine Vertical Bench Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Medicine Ball Crossover Push-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Push-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Single-Arm Dumbbell Bench Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Smith Machine Bench Press",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Twisting Dumbbell Bench Press",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Wide-Grip Push-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Cable Crossover",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Cable Fly",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Decline Dumbbell Fly",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Dumbbell Fly",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "High Cable Crossover",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Cable Fly",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Dumbbell Fly",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Incline Twisting Dumbbell Fly",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Low Cable Crossover",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Pec Deck",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Pec Deck Fly",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Pectoralis"
+  },
+  {
+    "exercise": "Bent-Knee Single-Leg Hip Lift",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Elevated Hip Lift",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Elevated Single-Leg Hip Lift",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Hip Lift",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Single-Leg Hip Lift",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Deadlift",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Leg Curl",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Lying Alternating Leg Curl",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Lying Leg Curl",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Lying Single-Leg Curl",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Seated Leg Curl",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Hamstrings"
+  },
+  {
+    "exercise": "Barbell Diagonal Lunge",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Hack Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Reverse Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Side Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Split Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Squat",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Step-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Barbell Walking Lunge",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Diagonal Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Diagonal Lunge",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Lunge",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Reverse Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Side Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Split Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Squat",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Step-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Dumbbell Walking Lunge",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Forward Lunge",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lateral Barbell Squat",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lateral Barbell Step-Up",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lateral Squat",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lateral Step-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Leg Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lunge",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Lying Machine Squat",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Machine Hack Squat",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Reverse Lunge",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Arm Barbell Side Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Arm Dumbbell Side Squat",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Barbell Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Box Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Dumbbell Box Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Dumbbell Squat",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Squat",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Smith Machine Squat",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Split Squat",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Step-Up",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Walking Lunge",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Lower",
+    "joint": "M",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Alternating Leg Extension",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Leg Extension",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Single-Leg Extension",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Lower",
+    "joint": "S",
+    "targeted_area": "Quadriceps"
+  },
+  {
+    "exercise": "Alternating Superman",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Erector Spinae"
+  },
+  {
+    "exercise": "Back Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Erector Spinae"
+  },
+  {
+    "exercise": "Quadruped Alternating Superman",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Erector Spinae"
+  },
+  {
+    "exercise": "Superman",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Erector Spinae"
+  },
+  {
+    "exercise": "Superman Hold",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Erector Spinae"
+  },
+  {
+    "exercise": "Arnold Dumbbell Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Barbell Shoulder Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Dumbbell Alternating Shoulder Press",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Dumbbell Front Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Dumbbell Shoulder Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Dumbbell Twisting Shoulder Press",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Machine Shoulder Press",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Seated Dumbbell Rear Delt Elbow Raise",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Single-Arm Dumbbell Shoulder Press",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Smith Machine Shoulder Press",
+    "level": "Advanced",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Barbell Front Raise",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Bent-Over Cable Rear Delt Raise",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Bent-Over Dumbbell Rear Delt Raise",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Cable Front Raise",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Cable Lateral Raise",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Dumbbell Lateral Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Front Plate Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Kneeling Single-Arm Cable Rear Delt Raise",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Lying Dumbbell External Rotation",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Lying Dumbbell Rear Delt Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Lying Single-Arm Dumbbell Rear Delt Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Pec Deck Real Delt Extensions",
+    "level": "Intermediate",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Reverse Incline Dumbbell Rear Delt Raise",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Seated Dumbbell Rear Delt Raise",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Single-Arm Cable Lateral Raise",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Delts/Traps"
+  },
+  {
+    "exercise": "Cable External Rotation",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Rotator Cuff"
+  },
+  {
+    "exercise": "Close-Grip Bench Press",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Forward Lean Dips",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Assisted Dips",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Bench Dips",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Diamond Push-Up",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Dips",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Machine Dips",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "M",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Decline Dumbbell Triceps Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Decline EZ-Bar Tricep Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Decline Single Dumbbell Triceps Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Decline Single-Arm Dumbbell Triceps Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Dumbbell Kickback",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Incline EZ-Bar Tricep Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Kneeling Cable Triceps Extension",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Leaning Overhead Tricep Extension",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Low Cable Triceps Extension",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Cable Triceps Extension",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying EZ-Bar Triceps Extension",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Overhead EZ-Bar Tricep Extension",
+    "level": "Intermediate",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Reverse EZ-Bar Triceps Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Single Dumbbell Triceps Extension",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Single-Arm Dumbbell Triceps Extension",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Lying Tricep Extensions",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead Dumbbell Triceps Extension",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead EZ-Bar Triceps Extension",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead Rope Cable Tricep Extension",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead Single Dumbbell Tricep Extension",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead Single-Arm Cable Tricep Extension",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Overhead Single-Arm Dumbbell Tricep Extension",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Reverse Tricep Pushdown",
+    "level": "Advanced",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Rope Triceps Pushdown",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Single-Arm Towel Triceps Pushdown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Single-Arm Triceps Pushdown",
+    "level": "Intermediate",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Towel Triceps Pushdown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Tricep Extensions",
+    "level": "Beginner",
+    "method": "FW",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Tricep Pushdown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "Tricep Pushdown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  },
+  {
+    "exercise": "V-Bar Tricep Pushdown",
+    "level": "Beginner",
+    "method": "C",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Triceps"
+  }
+]

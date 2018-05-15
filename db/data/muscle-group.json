@@ -1,0 +1,82 @@
+[
+  {
+    "targeted_area": "Lower",
+    "muscle_group": "Abdominals",
+    "train_with": "Biceps, Triceps"
+  },
+  {
+    "targeted_area": "Obliques",
+    "muscle_group": "Abdominals",
+    "train_with": "Biceps, Triceps"
+  },
+  {
+    "targeted_area": "Total",
+    "muscle_group": "Abdominals",
+    "train_with": "Biceps, Triceps"
+  },
+  {
+    "targeted_area": "Upper",
+    "muscle_group": "Abdominals",
+    "train_with": "Biceps, Triceps"
+  },
+  {
+    "targeted_area": "Latissimus Dorsi",
+    "muscle_group": "Back",
+    "train_with": "Chest"
+  },
+  {
+    "targeted_area": "Lat.Dorsi/Rhomboids",
+    "muscle_group": "Back",
+    "train_with": "Chest"
+  },
+  {
+    "targeted_area": "Biceps",
+    "muscle_group": "Biceps",
+    "train_with": "Triceps, Abdominals"
+  },
+  {
+    "targeted_area": "Gastrocnemius",
+    "muscle_group": "Calves",
+    "train_with": "Legs"
+  },
+  {
+    "targeted_area": "Soleus",
+    "muscle_group": "Calves",
+    "train_with": "Legs"
+  },
+  {
+    "targeted_area": "Pectoralis",
+    "muscle_group": "Chest",
+    "train_with": "Back"
+  },
+  {
+    "targeted_area": "Hamstrings",
+    "muscle_group": "Legs",
+    "train_with": "Shoulders"
+  },
+  {
+    "targeted_area": "Quadriceps",
+    "muscle_group": "Legs",
+    "train_with": "Shoulders"
+  },
+  {
+    "targeted_area": "Erector Spinae",
+    "muscle_group": "Lower Back",
+    "train_with": "Chest"
+  },
+  {
+    "targeted_area": "Delts/Traps",
+    "muscle_group": "Shoulders",
+    "train_with": "Legs"
+  },
+  {
+    "targeted_area": "Rotator Cuff",
+    "muscle_group": "Shoulders",
+    "train_with": "Legs"
+  },
+  {
+    "targeted_area": "Triceps",
+    "muscle_group": "Triceps",
+    "train_with": "Biceps, Abdominals"
+  }
+]
