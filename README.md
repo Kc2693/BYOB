@@ -9,7 +9,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 
 
 ## Available Endpoints
-### Muscle Groups (GET/POST/PATCH)  
+### Muscle Groups (GET/POST/PATCH/DELETE)  
 
 #### GET `/api/v1/muscle-groups` 
 Example response:
@@ -51,8 +51,15 @@ Example response:
 Example response here
 ```
 
+
+#### DELETE `api/v1/muscle-groups`
+  * You must specify an exercise ID in the body of your request
+Example response:
+```
+Example response here
+```
 ---
-### Exercises (GET/POST/PATCH)  
+### Exercises (GET/POST/PATCH/DELETE)  
 
 #### GET `api/v1/exercises`
 Example response:
@@ -67,6 +74,13 @@ Example response here
 ```
 
 #### PATCH `api/v1/exercises:id`
+Example response:
+```
+Example response here
+```
+
+#### DELETE `api/v1/exercises`
+  * You must specify an exercise ID in the body of your request
 Example response:
 ```
 Example response here
