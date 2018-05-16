@@ -84,5 +84,41 @@ describe('API Routes', () => {
         response.body[0].joint.should.equal('M');
         done();
       });
-  }); 
+  });
+  
+  it('GET muscle groups by id should return a single muscle group', done => {
+    const muscleGroupId = 1;
+
+    chai.request(server)
+      .get(`/api/v1/muscle-groups/${muscleGroupId}`)
+      .end((err, response) => {
+        response.should.have.status(200);
+        response.should.be.json;
+        response.body.should.be.an('array');
+        response.body.length.should.equal(1);
+        response.body[0].should.have.property('id');
+        response.body[0].id.should.equal(1);
+        response.body[0].should.have.property('muscle_group');
+        response.body[0].muscle_group.should.equal('Abdominals');
+        response.body[0].should.have.property('targeted_area');
+        response.body[0].targeted_area.should.equal('Lower');
+        response.body[0].should.have.property('train_with');
+        response.body[0].train_with.should.equal('Biceps, Triceps');
+        done();
+      });
+  });
+
+  it('GET muscle groups by id should return an error if muscle group is not found', done => {
+    const muscleGroupId = 3;
+
+    chai.request(server)
+      .get(`/api/v1/muscle-groups/${muscleGroupId}`)
+      .end((err, response) => {
+        response.should.have.status(404);
+        response.should.be.json;
+        response.body.should.have.property('error');
+        response.body.error.should.equal('Could not find muscle group with id 3');
+        done();
+      });
+  });
 }); 
