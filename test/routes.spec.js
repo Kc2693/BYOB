@@ -161,4 +161,43 @@ describe('API Routes', () => {
         done();
       });
   });
+
+  it('POST exercises should create a new exercise', done => {
+    chai.request(server)
+      .post('/api/v1/exercises')
+      .send({
+        exercise: 'Lying Hip Thrust',
+        level: 'Advanced',
+        method: 'FW',
+        upper_lower_core: 'Core',
+        joint: 'M',
+        muscle_group_id: '1'
+      })
+      .end((err, response) => {
+        response.should.have.status(201);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('id');
+        response.body.id.should.equal(4);
+        done();
+      });
+  });
+
+   it('POST exercises should not create an exercise with missing data ', done => {
+    chai.request(server)
+      .post('/api/v1/exercises')
+      .send({
+        exercise: 'Lying Hip Thrust',
+        level: 'Advanced',
+        method: 'FW',
+        upper_lower_core: 'Core',
+        joint: 'M'
+      })
+      .end((err, response) => {
+        response.should.have.status(422);
+        response.body.should.have.property('error');
+        response.body.error.should.equal(`You're missing a muscle_group_id property.`);
+        done();
+      });
+  });
 }); 
