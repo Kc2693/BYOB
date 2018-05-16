@@ -9,6 +9,8 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 
 
 ## Available Endpoints
+### Muscle Groups (GET/POST/PATCH)  
+
 #### GET `/api/v1/muscle-groups` 
 Example response:
 ```
@@ -37,7 +39,35 @@ Example response:
 "updated_at": "2018-05-15T22:34:20.881Z"
 }]
 ```
+### POST `api/v1/muscle-groups`  
+Example response:
+```
+Example response here
+```
 
+### Patch `api/v1/muscle-groups`  
+Example response:  
+```
+Example response here
+```
+
+---
+### Exercises (GET/POST/PATCH)  
 
 #### GET `api/v1/exercises`
-### POST `api/v1/muscle-groups`
+Example response:
+```
+Example response here
+```
+
+#### POST `api/v1/exercises`
+Example response:
+```
+Example response here
+```
+
+#### PATCH `api/v1/exercises:id`
+Example response:
+```
+Example response here
+```
