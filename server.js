@@ -88,6 +88,18 @@ app.post('/api/v1/muscle-groups', (request, response) => {
     .catch(error => response.status(500).json({ error }));
 });
 
+app.patch('/api/v1/exercises/:id', (request, response) => {
+  database('exercises').where('id', request.params.id).update({...request.body})
+  .then(exercise => response.status(202).json({message: 'Updated exercise'}))
+  .catch(error => response.status(500).json({error}));
+});
+
+app.patch('/api/v1/muscle-groups/:id', (request, response) => {
+  database('muscle_groups').where('id', request.params.id).update({...request.body})
+  .then(exercise => response.status(202).json({message: 'Updated muscle group'}))
+  .catch(error => response.status(500).json({error}));
+});
+
 app.delete('/api/v1/exercises', (request, response) => {
   const id = request.body.id
 
