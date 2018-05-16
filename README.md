@@ -39,13 +39,13 @@ Example response:
 "updated_at": "2018-05-15T22:34:20.881Z"
 }]
 ```
-### POST `api/v1/muscle-groups`  
+#### POST `api/v1/muscle-groups`  
 Example response:
 ```
 Example response here
 ```
 
-### Patch `api/v1/muscle-groups`  
+#### PATCH `api/v1/muscle-groups`  
 Example response:  
 ```
 Example response here
