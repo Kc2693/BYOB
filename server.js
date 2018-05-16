@@ -88,6 +88,40 @@ app.post('/api/v1/muscle-groups', (request, response) => {
     .catch(error => response.status(500).json({ error }));
 });
 
+app.delete('/api/v1/exercises', (request, response) => {
+  const id = request.body.id
+
+  if (!id) {
+    return response
+      .status(422)
+      .send({ error: `You're missing an id property.` });
+  }
+
+  database('exercises').where('id', id).del()
+    .then(exercise => response.status(202).json({ message: `Deleted exercise with id ${request.body.id}`}))
+    .catch(error => response.status(500).json({ error }))
+});
+
+app.delete('/api/v1/muscle-groups', (request, response) => {
+  const id = request.body.id
+
+  if (!id) {
+    return response
+      .status(422)
+      .send({ error: `You're missing an id property.` });
+  }
+
+  database('muscle_groups').where('id', id).del()
+    .then(muscleGroup => response.status(200).json({ message: `Deleted muscle group with id ${request.body.id}`}))
+    .catch(error => {
+      if (error.code === '23503') {
+        return response.status(500).json({ error: 'Please delete associated exercises before deleting muscle group'});
+      } else {
+        return response.status(500).json({error});
+      }
+    })
+});
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on ${app.get('port')}.`);
 });
