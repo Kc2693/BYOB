@@ -40,6 +40,12 @@ Example response:
 }]
 ```
 #### POST `api/v1/muscle-groups`  
+ * **REQUIRED parameters in the body of your response:**  
+  * 'muscle_group'
+  * 'targeted_area'
+  * 'train_with'
+  
+  
 Example response:
 ```
 Example response here
