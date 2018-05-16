@@ -53,7 +53,8 @@ Example response here
 
 
 #### DELETE `api/v1/muscle-groups`
-  * You must specify an exercise ID in the body of your request  
+  * You must specify a muscle group ID in the body of your request
+  * You must delete all exercises associated with the muscle group before you are able to delete the muscle group
   
 Example response:
 ```
