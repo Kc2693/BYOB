@@ -40,12 +40,20 @@ Example response:
 }]
 ```
 #### POST `api/v1/muscle-groups`  
- * **REQUIRED parameters in the body of your response:**  
-   * 'muscle_group'
-   * 'targeted_area'
-   * 'train_with'
+ * REQUIRED parameters in the body of your response:   
+   * muscle_group:  The name of the muscle group. This does not have to be unique. 
+   * targeted_area: The specific area. This is a **unique** key. 
+   * train_with: Other muscle groups that are recommended to be trained with this muscle group. 
+ * Response will give you back the ID of the newly created muscle group.
   
-  
+Example request body: 
+```
+{
+  "muscle_group": "abdominals",
+  "targeted_area": "lower",
+  "train_with": "Biceps, Triceps"
+}
+```
 Example response:
 ```
 Example response here
