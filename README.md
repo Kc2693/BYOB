@@ -21,6 +21,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
     * [PATCH](https://github.com/Kc2693/BYOB/blob/master/README.md#patch-apiv1exercisesid)
     * [DELETE](https://github.com/Kc2693/BYOB/blob/master/README.md#delete-apiv1exercises)
 
+---  
 
 ### Muscle Groups (GET/POST/PATCH/DELETE)  
 
