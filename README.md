@@ -6,6 +6,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 ---
 
 
-### Available Endpoints
+
+## Available Endpoints
 #### GET `/api/v1/muscle-groups`  
 
