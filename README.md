@@ -53,7 +53,8 @@ Example response here
 
 
 #### DELETE `api/v1/muscle-groups`
-  * You must specify an exercise ID in the body of your request
+  * You must specify an exercise ID in the body of your request  
+  
 Example response:
 ```
 Example response here
@@ -80,7 +81,8 @@ Example response here
 ```
 
 #### DELETE `api/v1/exercises`
-  * You must specify an exercise ID in the body of your request
+  * You must specify an exercise ID in the body of your request  
+  
 Example response:
 ```
 Example response here
