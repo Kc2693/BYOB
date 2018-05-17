@@ -90,13 +90,13 @@ app.post('/api/v1/muscle-groups', (request, response) => {
 
 app.patch('/api/v1/exercises/:id', (request, response) => {
   database('exercises').where('id', request.params.id).update({...request.body})
-  .then(exercise => response.status(202).json({message: 'Updated exercise'}))
+  .then(exercise => response.status(200).json({message: 'Updated exercise'}))
   .catch(error => response.status(500).json({error}));
 });
 
 app.patch('/api/v1/muscle-groups/:id', (request, response) => {
   database('muscle_groups').where('id', request.params.id).update({...request.body})
-  .then(exercise => response.status(202).json({message: 'Updated muscle group'}))
+  .then(exercise => response.status(200).json({message: 'Updated muscle group'}))
   .catch(error => response.status(500).json({error}));
 });
 
@@ -110,7 +110,7 @@ app.delete('/api/v1/exercises', (request, response) => {
   }
 
   database('exercises').where('id', id).del()
-    .then(exercise => response.status(202).json({ message: `Deleted exercise with id ${request.body.id}`}))
+    .then(exercise => response.status(200).json({ message: `Deleted exercise with id ${request.body.id}`}))
     .catch(error => response.status(500).json({ error }))
 });
 
@@ -137,3 +137,5 @@ app.delete('/api/v1/muscle-groups', (request, response) => {
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on ${app.get('port')}.`);
 });
+
+module.exports = app;
