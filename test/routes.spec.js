@@ -183,7 +183,7 @@ describe('API Routes', () => {
       });
   });
 
-   it('POST exercises should not create an exercise with missing data ', done => {
+  it('POST exercises should not create an exercise with missing data ', done => {
     chai.request(server)
       .post('/api/v1/exercises')
       .send({
@@ -197,6 +197,40 @@ describe('API Routes', () => {
         response.should.have.status(422);
         response.body.should.have.property('error');
         response.body.error.should.equal(`You're missing a muscle_group_id property.`);
+        done();
+      });
+  });
+
+  it('POST muscle_groups should create a new muscle group', done => {
+    chai
+      .request(server)
+      .post('/api/v1/muscle-groups')
+      .send({
+        targeted_area: 'Obliques',
+        muscle_group: 'Abdominals',
+        train_with: 'Biceps, Triceps'
+      })
+      .end((err, response) => {
+        response.should.have.status(201);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('id');
+        response.body.id.should.equal(2);
+        done();
+      });
+  });
+
+  it('POST muscle groups should not create a muscle group with missing data ', done => {
+    chai.request(server)
+      .post('/api/v1/muscle-groups')
+      .send({
+        targeted_area: 'Obliques',
+        muscle_group: 'Abdominals'
+      })
+      .end((err, response) => {
+        response.should.have.status(422);
+        response.body.should.have.property('error');
+        response.body.error.should.equal(`You're missing a train_with property.`);
         done();
       });
   });
