@@ -49,7 +49,7 @@ describe('API Routes', () => {
         response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.an('array');
-        response.body.length.should.equal(1);
+        response.body.length.should.equal(2);
         response.body[0].should.have.property('id');
         response.body[0].id.should.equal(1);
         response.body[0].should.have.property('muscle_group');
@@ -206,16 +206,16 @@ describe('API Routes', () => {
       .request(server)
       .post('/api/v1/muscle-groups')
       .send({
-        targeted_area: 'Obliques',
-        muscle_group: 'Abdominals',
-        train_with: 'Biceps, Triceps'
+        targeted_area: 'Latissimus Dorsi',
+        muscle_group: 'Back',
+        train_with: 'Chest'
       })
       .end((err, response) => {
         response.should.have.status(201);
         response.should.be.json;
         response.body.should.be.an('object');
         response.body.should.have.property('id');
-        response.body.id.should.equal(2);
+        response.body.id.should.equal(3);
         done();
       });
   });
@@ -244,7 +244,7 @@ describe('API Routes', () => {
         level: 'Beginner'
       })
       .end((err, response) => {
-        response.should.have.status(202);
+        response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.an('object');
         response.body.should.have.property('message');
@@ -262,7 +262,7 @@ describe('API Routes', () => {
         targeted_area: 'Total'
       })
       .end((err, response) => {
-        response.should.have.status(202);
+        response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.an('object');
         response.body.should.have.property('message');
@@ -278,7 +278,7 @@ describe('API Routes', () => {
         id: 1
       })
       .end((err, response) => {
-        response.should.have.status(202);
+        response.should.have.status(200);
         response.should.be.json;
         response.body.should.be.an('object');
         response.body.should.have.property('message');
@@ -295,6 +295,48 @@ describe('API Routes', () => {
         response.should.have.status(422);
         response.body.should.have.property('error');
         response.body.error.should.equal(`You're missing an id property.`);
+        done();
+      });
+  });
+
+  it('DELETE muscle group should remove a muscle group from database', done => {
+    chai.request(server)
+      .delete('/api/v1/muscle-groups')
+      .send({
+        id: 2
+      })
+      .end((err, response) => {
+        response.should.have.status(200);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('message');
+        response.body.message.should.equal('Deleted muscle group with id 2');
+        done();
+      });
+  });
+
+  it('DELETE muscle group should not remove a muscle group when missing data', done => {
+    chai.request(server)
+      .delete('/api/v1/muscle-groups')
+      .send({})
+      .end((err, response) => {
+        response.should.have.status(422);
+        response.body.should.have.property('error');
+        response.body.error.should.equal(`You're missing an id property.`);
+        done();
+      });
+  });
+
+  it('DELETE muscle group should send an error if you try to delete muscle group with exercises', done => {
+    chai.request(server)
+      .delete('/api/v1/muscle-groups')
+      .send({
+        id: '1'
+      })
+      .end((err, response) => {
+        response.should.have.status(500);
+        response.body.should.have.property('error');
+        response.body.error.should.equal(`Please delete associated exercises before deleting muscle group`);
         done();
       });
   });
