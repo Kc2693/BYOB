@@ -84,11 +84,11 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
  * REQUIRED to put id of muscle-group-to-patch in request URL
  * If successful, response will give back a message telling you that the muscle group was updated.
  
-Example response:  
-```
-Status: 202
-"Updated muscle group"
-```
+  Example response:  
+  ```
+  Status: 202
+  "Updated muscle group"
+  ```
 
 
 #### DELETE `api/v1/muscle-groups`
@@ -139,7 +139,6 @@ Status: 202
   ```
 
 #### POST `api/v1/exercises`  
-['exercise', 'level', 'method', 'upper_lower_core', 'joint', 'muscle_group_id']
   * REQUIRED parameters in the body of your request:
     * exercise: Name of the exercise
     * level: Beginner/Intermediate/Advanced
@@ -163,22 +162,28 @@ Status: 202
   
   Example response:
   ```
-  status: 201,
+  Status: 201,
   id: 285
   ```
 
 #### PATCH `api/v1/exercises:id`
-  Example response:
+ * REQUIRED to put id of exercise-to-patch in request URL
+ * If successful, response will give back a message telling you that the exercise was updated.
+ 
+  Example response:  
   ```
-  Example response here
+  Status: 202
+  "Updated exercise"
   ```
 
 #### DELETE `api/v1/exercises`
-  * You must specify an exercise ID in the body of your request  
+  * YOU MUST specify an exercise ID in the body of your request
+  * If successful, response will give back a message telling you that the exercise was deleted.
   
   Example response:
   ```
-  Example response here
+  Status: 202
+  "Deleted exercise with id {ID HERE}"
   ```
 
 
