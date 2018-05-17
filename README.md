@@ -195,13 +195,13 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
   
   Example request body: 
   ```
-    {
-    "exercise": "Spell Caster",
-    "level": "Advanced",
-    "method": "FW",
-    "upper_lower_core": "Core",
-    "joint": "M",
-    "muscle_group_id": 1   
+  {
+   "exercise": "Spell Caster",
+   "level": "Advanced",
+   "method": "FW",
+   "upper_lower_core": "Core",
+   "joint": "M",
+   "muscle_group_id": 1   
   }
   ```
   
