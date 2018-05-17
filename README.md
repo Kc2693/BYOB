@@ -109,7 +109,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
  
   Example response:  
   ```
-  Status: 202
+  Status: 200
   "Updated muscle group"
   ```
 ---
@@ -121,7 +121,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
   
   Example response:
   ```
-  Status: 202
+  Status: 200
   "Deleted exercise with id {ID HERE}"
   ```
 ---
@@ -218,7 +218,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
  
   Example response:  
   ```
-  Status: 202
+  Status: 200
   "Updated exercise"
   ```
 ---
@@ -229,7 +229,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
   
   Example response:
   ```
-  Status: 202
+  Status: 200
   "Deleted exercise with id {ID HERE}"
   ```
 ---
