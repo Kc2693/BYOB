@@ -115,7 +115,7 @@ function checkAdmin(request, response, next) {
   }
 }
 
-app.post('/authenticate', checkAdmin, (request, response) => {
+app.post('/authenticate', (request, response) => {
   const { email, appName } = request.body;
   const key = app.get('secretKey')
   const options = {
