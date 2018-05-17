@@ -277,7 +277,7 @@ describe('API Routes', () => {
       });
   });
 
-    it('Patch muscle groups should update a muscle group', done => {
+  it('Patch muscle groups should update a muscle group', done => {
     const muscleGroupId = 1;
 
     chai.request(server)
