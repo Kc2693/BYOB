@@ -270,4 +270,32 @@ describe('API Routes', () => {
         done();
       });
   });
+
+  it('DELETE exercise should remove an exercise from database', done => {
+    chai.request(server)
+      .delete('/api/v1/exercises')
+      .send({
+        id: 1
+      })
+      .end((err, response) => {
+        response.should.have.status(202);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('message');
+        response.body.message.should.equal('Deleted exercise with id 1');
+        done();
+      });
+  });
+
+  it('DELETE exercise should not remove an exercise when missing data', done => {
+    chai.request(server)
+      .delete('/api/v1/exercises')
+      .send({})
+      .end((err, response) => {
+        response.should.have.status(422);
+        response.body.should.have.property('error');
+        response.body.error.should.equal(`You're missing an id property.`);
+        done();
+      });
+  });
 }); 
