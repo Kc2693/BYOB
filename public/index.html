@@ -5,17 +5,53 @@
     <title></title>
   </head>
   <body>
-    <h1>Hello</h1>
-    <h6>Here for a JWT? Request one below:</h6>
-    <form>
-      <input type="text" placeholder="name"/>
-      <input type="email" placeholder="email" />
-      <button type="submit">Submit</button>
-    </form>
+    <div style="width: 305px; margin: auto;">
+      <h1>Welcome to BYOB</h1>
+      <h6 style="margin: 10px 0;">Here for a JWT? Request one below:</h6>
+      <form id="jwt-form">
+        <input id="email-input" type="email" placeholder="email" required/>
+        <input id="app-name-input" type="text" placeholder="app name" required/>
+        <button type="submit">Submit</button>
+      </form>
+      <h6 style="margin: 25px 0 10px 0;">Tokens expire in 48h.</h6>
     <textarea
+      id="token-textarea"
       readonly
       placeholder="JWT will appear here..."
-      style="resize: none"></textarea>
-      
+      style="resize: none; width: 300px; height: 150px;"></textarea>
+      </div>
+  <script type="text/javascript">
+    document.getElementById('jwt-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      submitForm(event)
+    })
+
+    async function submitForm() {
+      const email = document.getElementById('email-input').value;
+      const appName = document.getElementById('app-name-input').value;
+
+      const token = await getToken(email, appName);
+
+      document.getElementById('token-textarea').innerHTML = JSON.stringify(token.token)
+    }
+
+    function getToken(email, appName) {
+      const body = {email, appName};
+      const url = '/authenticate';
+
+      const token = fetch(url, {
+        method:'POST',
+        headers:{
+          'Accept':'application/json',
+          'Content-Type':'application/json',
+        },
+        body: JSON.stringify(body)
+      })
+        .then(response => response.json())
+        .catch(error => console.log('ERROR:',error))
+
+      return token;
+    }
+  </script>
   </body>
 </html>
