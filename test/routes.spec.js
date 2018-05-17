@@ -85,6 +85,30 @@ describe('API Routes', () => {
         done();
       });
   });
+
+  it('GET exercises with query of level should return all exercises with specified level', done => {
+    chai.request(server)
+      .get('/api/v1/exercises?level=Advanced')
+      .end((err, response) => {
+        response.should.have.status(200);
+        response.should.be.json;
+        response.body.should.be.an('array');
+        response.body.length.should.equal(3);
+        response.body[0].should.have.property('id');
+        response.body[0].id.should.equal(1);
+        response.body[0].should.have.property('exercise');
+        response.body[0].exercise.should.equal('Full Reverse Crunch');
+        response.body[0].should.have.property('level');
+        response.body[0].level.should.equal('Advanced');
+        response.body[0].should.have.property('method');
+        response.body[0].method.should.equal('FW');
+        response.body[0].should.have.property('upper_lower_core');
+        response.body[0].upper_lower_core.should.equal('Core');
+        response.body[0].should.have.property('joint');
+        response.body[0].joint.should.equal('M');
+        done();
+      });
+  });
   
   it('GET muscle groups by id should return a single muscle group', done => {
     const muscleGroupId = 1;
