@@ -29,7 +29,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### GET `/api/v1/muscle-groups` 
   * Retrieves all muscle groups in the database. 
-  * If successful, response will give you back an array of objects containing each exercise.
+  * Response will contain an array of objects containing each exercise.
   
   Example response:
   ```
@@ -64,7 +64,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### GET by ID `api/v1/muscle-groups/:id`  
   * Retrieve a specific muscle-group by ID.
-  * If successful, response will give back an array with an object containing the specified muscle group.
+  * Response will contain an array with an object containing the specified muscle group.
   
   Example response:
   ```
@@ -86,7 +86,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
    * muscle_group:  The name of the muscle group. This does not have to be unique. 
    * targeted_area: The specific area. This is a **unique** key. For muscle-groups that will only have one targeted area, it is recommended to put 'Total'.
    * train_with: Other muscle groups that are recommended to be trained with this muscle group. 
- * If successful, response will give back the ID of the newly created group.
+ * Response will contain the ID of the newly created group.
   
   Example request body: 
   ```
@@ -105,7 +105,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### PATCH `api/v1/muscle-groups/:id` 
  * REQUIRED to put id of muscle-group-to-patch in request URL
- * If successful, response will give back a message telling you that the muscle group was updated.
+ * Response will contain a message telling you that the muscle group was updated.
  
   Example response:  
   ```
@@ -117,7 +117,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 #### DELETE `api/v1/muscle-groups`
   * You must specify a muscle group ID in the body of your request
   * You must delete all exercises associated with the muscle group first or you will receive an error.
-  * If successful, response will give back a message telling you that the muscle group was deleted.
+  * Response will contain a message telling you that the muscle group was deleted.
   
   Example response:
   ```
@@ -131,7 +131,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### GET `api/v1/exercises`  
   * Retrieves all muscle groups in the database. 
-  * If successful, response will give back an array of objects containing each exercise.  
+  * Response will contain an array of objects containing each exercise.  
   
   Example response:
   ```
@@ -166,7 +166,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
   
 #### GET by ID `api/v1/exercises/:id`  
   * Retrieve a specific exercise by ID.
-  * If successful, response will give back an array with an object containing the specified exercise.
+  * Response will contain an array with an object containing the specified exercise.
   
   Example response:
   ```
@@ -191,7 +191,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
     * upper_lower_core: Upper/Lower/Core. Which part of the muscle group does this exercise target?
     * joint: M/S. M for Multi-Joint Exercise, S for Single-Joint Exercise
     * muscle_group_id: The ID of the muscle group this exercise will belong to. If none exists, you must POST to muscle-groups beforehand.
-  * If successful, response will give back the id of the newly-created exercise. You can view this exercise with a get request to the specific id: GET `api/v1/exercises/:id`
+  * Response will contain the id of the newly-created exercise. You can view this exercise with a get request to the specific id: GET `api/v1/exercises/:id`
   
   Example request body: 
   ```
@@ -214,7 +214,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### PATCH `api/v1/exercises:id`
  * REQUIRED to put id of exercise-to-patch in request URL
- * If successful, response will give back a message telling you that the exercise was updated.
+ * Response will contain a message telling you that the exercise was updated.
  
   Example response:  
   ```
@@ -225,7 +225,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
 
 #### DELETE `api/v1/exercises`
   * YOU MUST specify an exercise ID in the body of your request
-  * If successful, response will give back a message telling you that the exercise was deleted.
+  * Response will contain a message telling you that the exercise was deleted.
   
   Example response:
   ```
