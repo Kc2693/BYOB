@@ -12,11 +12,13 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
  #### Table of Contents  
   * Muscle Groups
     * [GET](https://github.com/Kc2693/BYOB/blob/master/README.md#get-apiv1muscle-groups)
+    * [GET:ID](https://github.com/Kc2693/BYOB/blob/master/README.md#get-by-id-apiv1muscle-groupsid)
     * [POST](https://github.com/Kc2693/BYOB/blob/master/README.md#post-apiv1muscle-groups)
     * [PATCH](https://github.com/Kc2693/BYOB/blob/master/README.md#patch-apiv1muscle-groups)
     * [DELETE](https://github.com/Kc2693/BYOB/blob/master/README.md#delete-apiv1muscle-groups)
   * Exercises
     * [GET](https://github.com/Kc2693/BYOB/blob/master/README.md#get-apiv1exercises)
+    * [GET:ID](https://github.com/Kc2693/BYOB/blob/master/README.md#get-by-id-apiv1exercisesid)
     * [POST](https://github.com/Kc2693/BYOB/blob/master/README.md#post-apiv1exercises)
     * [PATCH](https://github.com/Kc2693/BYOB/blob/master/README.md#patch-apiv1exercisesid)
     * [DELETE](https://github.com/Kc2693/BYOB/blob/master/README.md#delete-apiv1exercises)
