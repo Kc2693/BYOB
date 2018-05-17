@@ -26,7 +26,8 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 ### Muscle Groups (GET/POST/PATCH/DELETE)  
 
 #### GET `/api/v1/muscle-groups` 
-  * Retrieves all muscle groups in the database.  
+  * Retrieves all muscle groups in the database. 
+  * If successful, response will give you back an array of objects containing each exercise.
   
 Example response:
 ```
@@ -61,7 +62,7 @@ Example response:
    * muscle_group:  The name of the muscle group. This does not have to be unique. 
    * targeted_area: The specific area. This is a **unique** key. For muscle-groups that will only have one targeted area, it is recommended to put 'Total'.
    * train_with: Other muscle groups that are recommended to be trained with this muscle group. 
- * Response will give you back the ID of the newly created group.
+ * If successful, response will give you back the ID of the newly created group.
   
   Example request body: 
   ```
@@ -77,31 +78,66 @@ Example response:
   id: 34
   ```
 
-#### PATCH `api/v1/muscle-groups`  
+#### PATCH `api/v1/muscle-groups/:id` 
+ * REQUIRED to put id of muscle-group-to-patch in request URL
+ * If successful, response will give you back a message telling you that the muscle group was updated.
+ 
 Example response:  
 ```
-Example response here
+Status: 202
+"Updated muscle group"
 ```
 
 
 #### DELETE `api/v1/muscle-groups`
   * You must specify a muscle group ID in the body of your request
   * You must delete all exercises associated with the muscle group first or you will receive an error.
+  * If successful, response will give you back a message telling you that the muscle group was deleted.
   
 Example response:
 ```
-Example response here
+Status: 202
+"Deleted exercise with id {ID HERE}"
 ```
 ---
 ### Exercises (GET/POST/PATCH/DELETE)  
 
-#### GET `api/v1/exercises`
+#### GET `api/v1/exercises`  
+  * Retrieves all muscle groups in the database. 
+  * If successful, response will give you back an array of objects containing each exercise.  
+  
 Example response:
 ```
-Example response here
+[
+  {
+    "exercise": "Full Reverse Crunch",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "targeted_area": "Lower"
+  },
+  {
+   "exercise": "Bent-Knee Medicine Ball Hip Rotation",
+   "level": "Advanced",
+   "method": "FW",
+   "upper_lower_core": "Core",
+   "joint": "M",
+   "targeted_area": "Obliques"
+  },
+  {
+   "exercise": "Machine Curl",
+   "level": "Beginner",
+   "method": "M",
+   "upper_lower_core": "Upper",
+   "joint": "S",
+   "targeted_area": "Biceps"
+  },
+]
 ```
 
-#### POST `api/v1/exercises`
+#### POST `api/v1/exercises`  
+
 Example response:
 ```
 Example response here
@@ -120,5 +156,7 @@ Example response:
 ```
 Example response here
 ```
+
+
 
 [Back To Top](https://github.com/Kc2693/BYOB/blob/master/README.md#byob-build-your-own-backend)
