@@ -252,4 +252,22 @@ describe('API Routes', () => {
         done();
       });
   });
+
+    it('Patch muscle groups should update a muscle group', done => {
+    const muscleGroupId = 1;
+
+    chai.request(server)
+      .patch(`/api/v1/muscle-groups/${muscleGroupId}`)
+      .send({
+        targeted_area: 'Total'
+      })
+      .end((err, response) => {
+        response.should.have.status(202);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('message');
+        response.body.message.should.equal('Updated muscle group');
+        done();
+      });
+  });
 }); 
