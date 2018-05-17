@@ -23,7 +23,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 
 ---  
 
-### Muscle Groups (GET/POST/PATCH/DELETE)  
+### Muscle Groups (GET/GET:ID/POST/PATCH/DELETE)  
 
 #### GET `/api/v1/muscle-groups` 
   * Retrieves all muscle groups in the database. 
@@ -48,6 +48,24 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
     "created_at": "2018-05-15T22:34:20.881Z",
     "updated_at": "2018-05-15T22:34:20.881Z"
    },
+   {
+    "id": 3,
+    "muscle_group": "Abdominals",
+    "targeted_area": "Total",
+    "train_with": "Biceps, Triceps",
+    "created_at": "2018-05-15T22:34:20.881Z",
+    "updated_at": "2018-05-15T22:34:20.881Z"
+   }
+  ]
+  ```
+
+#### GET by ID `api/v1/muscle-groups/:id`  
+  * Retrieve a specific muscle-group by ID.
+  * If successful, response will give back an array with an object containing the specified muscle group.
+  
+  Example response:
+  ```
+  [
    {
     "id": 3,
     "muscle_group": "Abdominals",
@@ -102,7 +120,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   "Deleted exercise with id {ID HERE}"
   ```
 ---
-### Exercises (GET/POST/PATCH/DELETE)  
+### Exercises (GET/GET:ID/POST/PATCH/DELETE)  
 
 #### GET `api/v1/exercises`  
   * Retrieves all muscle groups in the database. 
@@ -135,6 +153,24 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
      "joint": "S",
      "targeted_area": "Biceps"
     },
+  ]
+  ```
+  
+#### GET by ID `api/v1/exercises/:id`  
+  * Retrieve a specific exercise by ID.
+  * If successful, response will give back an array with an object containing the specified exercise.
+  
+  Example response:
+  ```
+  [
+   {
+    "exercise": "Machine Curl",
+    "level": "Beginner",
+    "method": "M",
+    "upper_lower_core": "Upper",
+    "joint": "S",
+    "targeted_area": "Biceps"
+   },
   ]
   ```
 
