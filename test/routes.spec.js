@@ -189,6 +189,7 @@ describe('API Routes', () => {
   it('POST exercises should create a new exercise', done => {
     chai.request(server)
       .post('/api/v1/exercises')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         exercise: 'Lying Hip Thrust',
         level: 'Advanced',
@@ -210,6 +211,7 @@ describe('API Routes', () => {
   it('POST exercises should not create an exercise with missing data ', done => {
     chai.request(server)
       .post('/api/v1/exercises')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         exercise: 'Lying Hip Thrust',
         level: 'Advanced',
@@ -229,6 +231,7 @@ describe('API Routes', () => {
     chai
       .request(server)
       .post('/api/v1/muscle-groups')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         targeted_area: 'Latissimus Dorsi',
         muscle_group: 'Back',
@@ -247,6 +250,7 @@ describe('API Routes', () => {
   it('POST muscle groups should not create a muscle group with missing data ', done => {
     chai.request(server)
       .post('/api/v1/muscle-groups')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         targeted_area: 'Obliques',
         muscle_group: 'Abdominals'
@@ -259,11 +263,41 @@ describe('API Routes', () => {
       });
   });
 
+  it('POST authenticate should return a token', done => {
+    chai
+      .request(server)
+      .post('/authenticate')
+      .send({
+        email: 'charlos@turing.io',
+        appName: 'Charlos',
+      })
+      .end((err, response) => {
+        response.should.have.status(201);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('token');
+        done();
+      });
+  });
+
+  it('POST authenticate should not return a token if missing data', done => {
+    chai.request(server)
+      .post('/authenticate')
+      .send({})
+      .end((err, response) => {
+        response.should.have.status(422);
+        response.body.should.have.property('message');
+        response.body.message.should.equal(`Invalid request, must supply email and appName`);
+        done();
+      });
+  });
+
   it('Patch exercises should update an exercise', done => {
     const exerciseId = 1;
 
     chai.request(server)
       .patch(`/api/v1/exercises/${exerciseId}`)
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         level: 'Beginner'
       })
@@ -282,6 +316,7 @@ describe('API Routes', () => {
 
     chai.request(server)
       .patch(`/api/v1/muscle-groups/${muscleGroupId}`)
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         targeted_area: 'Total'
       })
@@ -298,6 +333,7 @@ describe('API Routes', () => {
   it('DELETE exercise should remove an exercise from database', done => {
     chai.request(server)
       .delete('/api/v1/exercises')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         id: 1
       })
@@ -314,6 +350,7 @@ describe('API Routes', () => {
   it('DELETE exercise should not remove an exercise when missing data', done => {
     chai.request(server)
       .delete('/api/v1/exercises')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({})
       .end((err, response) => {
         response.should.have.status(422);
@@ -326,6 +363,7 @@ describe('API Routes', () => {
   it('DELETE muscle group should remove a muscle group from database', done => {
     chai.request(server)
       .delete('/api/v1/muscle-groups')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         id: 2
       })
@@ -342,6 +380,7 @@ describe('API Routes', () => {
   it('DELETE muscle group should not remove a muscle group when missing data', done => {
     chai.request(server)
       .delete('/api/v1/muscle-groups')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({})
       .end((err, response) => {
         response.should.have.status(422);
@@ -354,6 +393,7 @@ describe('API Routes', () => {
   it('DELETE muscle group should send an error if you try to delete muscle group with exercises', done => {
     chai.request(server)
       .delete('/api/v1/muscle-groups')
+      .set('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZG9AdHVyaW5nLmlvIiwiYXBwTmFtZSI6IkFsZG8iLCJpYXQiOjE1MjY1OTczNjEsImV4cCI6MTUyNjc3MDE2MX0.zxEQrmWb3xxO04xpWgTayaKsk-8ZWdu1EDRx1vLTTbQ')
       .send({
         id: '1'
       })
