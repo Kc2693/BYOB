@@ -86,7 +86,7 @@ Yolo ipsum dolor sit amet, you see that bamboo behind me though, you see that ba
    * muscle_group:  The name of the muscle group. This does not have to be unique. 
    * targeted_area: The specific area. This is a **unique** key. For muscle-groups that will only have one targeted area, it is recommended to put 'Total'.
    * train_with: Other muscle groups that are recommended to be trained with this muscle group. 
- * Response will contain the ID of the newly created group.
+ * Response will contain the ID of the newly created group. You can view this exercise with a get request to the specific id: GET api/v1/muscle-groups/:id
   
   Example request body: 
   ```
