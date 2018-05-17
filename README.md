@@ -60,11 +60,11 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   ```
 
 #### POST `api/v1/muscle-groups`  
- * REQUIRED parameters in the body of your response:   
+ * REQUIRED parameters in the body of your request:   
    * muscle_group:  The name of the muscle group. This does not have to be unique. 
    * targeted_area: The specific area. This is a **unique** key. For muscle-groups that will only have one targeted area, it is recommended to put 'Total'.
    * train_with: Other muscle groups that are recommended to be trained with this muscle group. 
- * If successful, response will give you back the ID of the newly created group.
+ * If successful, response will give back the ID of the newly created group.
   
   Example request body: 
   ```
@@ -82,7 +82,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
 
 #### PATCH `api/v1/muscle-groups/:id` 
  * REQUIRED to put id of muscle-group-to-patch in request URL
- * If successful, response will give you back a message telling you that the muscle group was updated.
+ * If successful, response will give back a message telling you that the muscle group was updated.
  
 Example response:  
 ```
@@ -94,7 +94,7 @@ Status: 202
 #### DELETE `api/v1/muscle-groups`
   * You must specify a muscle group ID in the body of your request
   * You must delete all exercises associated with the muscle group first or you will receive an error.
-  * If successful, response will give you back a message telling you that the muscle group was deleted.
+  * If successful, response will give back a message telling you that the muscle group was deleted.
   
   Example response:
   ```
@@ -106,7 +106,7 @@ Status: 202
 
 #### GET `api/v1/exercises`  
   * Retrieves all muscle groups in the database. 
-  * If successful, response will give you back an array of objects containing each exercise.  
+  * If successful, response will give back an array of objects containing each exercise.  
   
   Example response:
   ```
@@ -139,10 +139,32 @@ Status: 202
   ```
 
 #### POST `api/v1/exercises`  
-
+['exercise', 'level', 'method', 'upper_lower_core', 'joint', 'muscle_group_id']
+  * REQUIRED parameters in the body of your request:
+    * exercise: Name of the exercise
+    * level: Beginner/Intermediate/Advanced
+    * method: FW/C/M (Free Weights, Cables, or Machine). The method this exercise uses.
+    * upper_lower_core: Upper/Lower/Core. Which part of the muscle group does this exercise target?
+    * joint: M/S. M for Multi-Joint Exercise, S for Single-Joint Exercise
+    * muscle_group_id: The ID of the muscle group this exercise will belong to. If none exists, you must POST to muscle-groups beforehand.
+  * If successful, response will give back the id of the newly-created exercise. You can view this exercise with a get request to the specific id: GET `api/v1/exercises/:id`
+  
+  Example request body: 
+  ```
+    {
+    "exercise": "Spell Caster",
+    "level": "Advanced",
+    "method": "FW",
+    "upper_lower_core": "Core",
+    "joint": "M",
+    "muscle_group_id": 1   
+  }
+  ```
+  
   Example response:
   ```
-  Example response here
+  status: 201,
+  id: 285
   ```
 
 #### PATCH `api/v1/exercises:id`
