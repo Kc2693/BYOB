@@ -234,4 +234,22 @@ describe('API Routes', () => {
         done();
       });
   });
+
+  it('Patch exercises should update an exercise', done => {
+    const exerciseId = 1;
+
+    chai.request(server)
+      .patch(`/api/v1/exercises/${exerciseId}`)
+      .send({
+        level: 'Beginner'
+      })
+      .end((err, response) => {
+        response.should.have.status(202);
+        response.should.be.json;
+        response.body.should.be.an('object');
+        response.body.should.have.property('message');
+        response.body.message.should.equal('Updated exercise');
+        done();
+      });
+  });
 }); 
