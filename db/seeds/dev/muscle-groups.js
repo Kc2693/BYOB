@@ -9,8 +9,10 @@ exports.seed = function(knex, Promise) {
     })
     .then(() => {
       let exercisePromises = [];
+
       exerciseData.forEach(exercise => {
         let muscleGroup = exercise.targeted_area;
+
         exercisePromises.push(createExercise(knex, exercise, muscleGroup));
       });
 
