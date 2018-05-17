@@ -19,9 +19,17 @@ app.get('/api/v1/muscle-groups', (request, response) => {
 });
 
 app.get('/api/v1/exercises', (request, response) => {
-  database('exercises').select()
-    .then(exercises => response.status(200).json(exercises))
-    .catch(error => response.status(500).json(error))
+  const level = request.query.level;
+
+  if (level) {
+    database('exercises').where('level', level)
+      .then(exercises => response.status(200).json(exercises))
+      .catch(error => response.status(500).json(error))
+  } else {
+    database('exercises').select()
+      .then(exercises => response.status(200).json(exercises))
+      .catch(error => response.status(500).json(error))
+  }
 });
 
 app.get('/api/v1/muscle-groups/:id', (request, response) => {
