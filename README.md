@@ -29,33 +29,35 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   * Retrieves all muscle groups in the database. 
   * If successful, response will give you back an array of objects containing each exercise.
   
-Example response:
-```
-[{
-"id": 1,
-"muscle_group": "Abdominals",
-"targeted_area": "Lower",
-"train_with": "Biceps, Triceps",
-"created_at": "2018-05-15T22:34:20.881Z",
-"updated_at": "2018-05-15T22:34:20.881Z"
-},
-{
-"id": 2,
-"muscle_group": "Abdominals",
-"targeted_area": "Obliques",
-"train_with": "Biceps, Triceps",
-"created_at": "2018-05-15T22:34:20.881Z",
-"updated_at": "2018-05-15T22:34:20.881Z"
-},
-{
-"id": 3,
-"muscle_group": "Abdominals",
-"targeted_area": "Total",
-"train_with": "Biceps, Triceps",
-"created_at": "2018-05-15T22:34:20.881Z",
-"updated_at": "2018-05-15T22:34:20.881Z"
-}]
-```
+  Example response:
+  ```
+  [
+   {
+    "id": 1,
+    "muscle_group": "Abdominals",
+    "targeted_area": "Lower",
+    "train_with": "Biceps, Triceps",
+    "created_at": "2018-05-15T22:34:20.881Z",
+    "updated_at": "2018-05-15T22:34:20.881Z"
+   },
+   {
+    "id": 2,
+    "muscle_group": "Abdominals",
+    "targeted_area": "Obliques",
+    "train_with": "Biceps, Triceps",
+    "created_at": "2018-05-15T22:34:20.881Z",
+    "updated_at": "2018-05-15T22:34:20.881Z"
+   },
+   {
+    "id": 3,
+    "muscle_group": "Abdominals",
+    "targeted_area": "Total",
+    "train_with": "Biceps, Triceps",
+    "created_at": "2018-05-15T22:34:20.881Z",
+    "updated_at": "2018-05-15T22:34:20.881Z"
+   }
+  ]
+  ```
 
 #### POST `api/v1/muscle-groups`  
  * REQUIRED parameters in the body of your response:   
@@ -94,11 +96,11 @@ Status: 202
   * You must delete all exercises associated with the muscle group first or you will receive an error.
   * If successful, response will give you back a message telling you that the muscle group was deleted.
   
-Example response:
-```
-Status: 202
-"Deleted exercise with id {ID HERE}"
-```
+  Example response:
+  ```
+  Status: 202
+  "Deleted exercise with id {ID HERE}"
+  ```
 ---
 ### Exercises (GET/POST/PATCH/DELETE)  
 
@@ -106,56 +108,56 @@ Status: 202
   * Retrieves all muscle groups in the database. 
   * If successful, response will give you back an array of objects containing each exercise.  
   
-Example response:
-```
-[
-  {
-    "exercise": "Full Reverse Crunch",
-    "level": "Advanced",
-    "method": "FW",
-    "upper_lower_core": "Core",
-    "joint": "M",
-    "targeted_area": "Lower"
-  },
-  {
-   "exercise": "Bent-Knee Medicine Ball Hip Rotation",
-   "level": "Advanced",
-   "method": "FW",
-   "upper_lower_core": "Core",
-   "joint": "M",
-   "targeted_area": "Obliques"
-  },
-  {
-   "exercise": "Machine Curl",
-   "level": "Beginner",
-   "method": "M",
-   "upper_lower_core": "Upper",
-   "joint": "S",
-   "targeted_area": "Biceps"
-  },
-]
-```
+  Example response:
+  ```
+  [
+    {
+      "exercise": "Full Reverse Crunch",
+      "level": "Advanced",
+      "method": "FW",
+      "upper_lower_core": "Core",
+      "joint": "M",
+      "targeted_area": "Lower"
+    },
+    {
+     "exercise": "Bent-Knee Medicine Ball Hip Rotation",
+     "level": "Advanced",
+     "method": "FW",
+     "upper_lower_core": "Core",
+     "joint": "M",
+     "targeted_area": "Obliques"
+    },
+    {
+     "exercise": "Machine Curl",
+     "level": "Beginner",
+     "method": "M",
+     "upper_lower_core": "Upper",
+     "joint": "S",
+     "targeted_area": "Biceps"
+    },
+  ]
+  ```
 
 #### POST `api/v1/exercises`  
 
-Example response:
-```
-Example response here
-```
+  Example response:
+  ```
+  Example response here
+  ```
 
 #### PATCH `api/v1/exercises:id`
-Example response:
-```
-Example response here
-```
+  Example response:
+  ```
+  Example response here
+  ```
 
 #### DELETE `api/v1/exercises`
   * You must specify an exercise ID in the body of your request  
   
-Example response:
-```
-Example response here
-```
+  Example response:
+  ```
+  Example response here
+  ```
 
 
 
