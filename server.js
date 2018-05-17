@@ -9,7 +9,7 @@ const secretKey = require('dotenv').config();
 
 
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use('/', express.static('public'));
 
 app.set('port', process.env.PORT || 3000);
 app.set('secretKey', process.env.KEY)
