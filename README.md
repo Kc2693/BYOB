@@ -59,6 +59,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   ]
   ```
 
+
 #### GET by ID `api/v1/muscle-groups/:id`  
   * Retrieve a specific muscle-group by ID.
   * If successful, response will give back an array with an object containing the specified muscle group.
@@ -76,6 +77,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
    }
   ]
   ```
+
 
 #### POST `api/v1/muscle-groups`  
  * REQUIRED parameters in the body of your request:   
@@ -97,6 +99,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   Status: 201
   id: 34
   ```
+
 
 #### PATCH `api/v1/muscle-groups/:id` 
  * REQUIRED to put id of muscle-group-to-patch in request URL
@@ -120,6 +123,8 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   "Deleted exercise with id {ID HERE}"
   ```
 ---
+
+
 ### Exercises (GET/GET:ID/POST/PATCH/DELETE)  
 
 #### GET `api/v1/exercises`  
@@ -156,6 +161,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   ]
   ```
   
+  
 #### GET by ID `api/v1/exercises/:id`  
   * Retrieve a specific exercise by ID.
   * If successful, response will give back an array with an object containing the specified exercise.
@@ -173,6 +179,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
    },
   ]
   ```
+
 
 #### POST `api/v1/exercises`  
   * REQUIRED parameters in the body of your request:
@@ -202,6 +209,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   id: 285
   ```
 
+
 #### PATCH `api/v1/exercises:id`
  * REQUIRED to put id of exercise-to-patch in request URL
  * If successful, response will give back a message telling you that the exercise was updated.
@@ -211,6 +219,7 @@ dfkhdsdjfhskdjfhsdjkfsjdhfskdjhfsdhfksdjhf
   Status: 202
   "Updated exercise"
   ```
+
 
 #### DELETE `api/v1/exercises`
   * YOU MUST specify an exercise ID in the body of your request
