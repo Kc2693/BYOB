@@ -138,7 +138,7 @@ This project uses TravisCI, and is fully tested with Mocha and Chai.
 ---
 
 
-### Exercises (GET/GET:ID/POST/PATCH/DELETE)  
+### Exercises (GET/GET?QUERY/GET:ID/POST/PATCH/DELETE)  
 
 #### GET `api/v1/exercises`  
   * Retrieves all muscle groups in the database. 
@@ -174,6 +174,31 @@ This project uses TravisCI, and is fully tested with Mocha and Chai.
   ]
   ```
 --- 
+#### GET `api/v1/exercises?Level=Beginner`  
+  * Retrieves all exercises of a specified level (Beginner, Intermediate, or Advanced)
+  * Response will contain an array of objects containing each exercise. 
+  
+    Example response:
+  ```
+  [
+    {
+      "exercise": "Full Reverse Crunch",
+      "level": "Advanced",
+      "method": "FW",
+      "upper_lower_core": "Core",
+      "joint": "M",
+      "targeted_area": "Lower"
+    },
+    {
+     "exercise": "Bent-Knee Medicine Ball Hip Rotation",
+     "level": "Advanced",
+     "method": "FW",
+     "upper_lower_core": "Core",
+     "joint": "M",
+     "targeted_area": "Obliques"
+    },
+  ```
+  
   
 #### GET by ID `api/v1/exercises/:id`  
   * Retrieve a specific exercise by ID.
