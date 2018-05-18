@@ -1,4 +1,4 @@
-
+/* eslint-disable no-console */
 exports.seed = function(knex) {
   return knex('exercises').del()
     .then(() => knex('muscle_groups').del())
@@ -14,7 +14,7 @@ exports.seed = function(knex) {
           muscle_group: 'Abdominals',
           train_with: 'Biceps, Triceps' 
         }
-      ])
+      ]);
     })
     .then(() => {
       return knex('exercises').insert([

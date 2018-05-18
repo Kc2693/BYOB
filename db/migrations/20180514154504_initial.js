@@ -19,14 +19,14 @@ exports.up = function(knex, Promise) {
       table.string('joint');
       table.integer('muscle_group_id').unsigned();
       table.foreign('muscle_group_id')
-        .references('muscle_groups.id')
+        .references('muscle_groups.id');
     })
-  ])
+  ]);
 };
 
 exports.down = function(knex, Promise) {
   return Promise.all([
     knex.schema.dropTable('exercises'),
     knex.schema.dropTable('muscle_groups')
-  ])
+  ]);
 };
