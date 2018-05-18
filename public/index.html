@@ -19,39 +19,39 @@
       readonly
       placeholder="JWT will appear here..."
       style="resize: none; width: 300px; height: 150px;"></textarea>
-      </div>
-  <script type="text/javascript">
-    document.getElementById('jwt-form').addEventListener('submit', function(event) {
-      event.preventDefault();
-      submitForm(event)
-    })
+    </div>
+    <script type="text/javascript">
+        document.getElementById('jwt-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          submitForm(event)
+        })
 
-    async function submitForm() {
-      const email = document.getElementById('email-input').value;
-      const appName = document.getElementById('app-name-input').value;
-      
-      const token = await getToken(email, appName);
+        async function submitForm() {
+          const email = document.getElementById('email-input').value;
+          const appName = document.getElementById('app-name-input').value;
 
-      document.getElementById('token-textarea').innerHTML = JSON.stringify(token.token)
-    }
+          const token = await getToken(email, appName);
 
-    async function getToken(email, appName) {
-      const url = '/authenticate';
+          document.getElementById('token-textarea').innerHTML = JSON.stringify(token.token)
+        }
 
-      try {
-        const response = await fetch(url, {
-          method:'POST',
-          body: JSON.stringify({email, appName}),
-          headers: {
-            'Content-Type':'application/json'
+        async function getToken(email, appName) {
+          const url = '/authenticate';
+
+          try {
+            const response = await fetch(url, {
+              method:'POST',
+              body: JSON.stringify({email, appName}),
+              headers: {
+                'Content-Type':'application/json'
+              }
+            });
+            const token = await response.json();
+            return token;
+          } catch (err) {
+            return {error: err.message}
           }
-        });
-        const token = await response.json();
-        return token;
-      } catch (err) {
-        return {error: err.message}
-      }
-    }
-  </script>
+        }
+    </script>
   </body>
 </html>

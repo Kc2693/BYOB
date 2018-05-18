@@ -13,4 +13,4 @@ deploy:
   app: byob-1711
   skip_cleanup: true
   on:
-    tags: true
+    branch: 'master'
