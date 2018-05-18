@@ -38,11 +38,10 @@
     function getToken(email, appName) {
       const body = {email, appName};
       const url = '/authenticate';
-
+      console.log(body);
       const token = fetch(url, {
         method:'POST',
         headers:{
-          'Accept':'application/json',
           'Content-Type':'application/json',
         },
         body: JSON.stringify(body)
