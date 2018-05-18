@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const exerciseData = require('../../data/exercises.json');
 const muscleGroupData = require('../../data/muscle-group.json');
 
@@ -19,7 +20,7 @@ exports.seed = function(knex, Promise) {
       return Promise.all(exercisePromises);
     })
     .then(() => console.log('Seeding complete!'))
-    .catch(error => console.log(`Error seeding data: ${error}`))
+    .catch(error => console.log(`Error seeding data: ${error}`));
 };
 
 const createExercise = (knex, exercise, muscleGroup) => {
