@@ -21,6 +21,7 @@ This project uses TravisCI, and is fully tested with Mocha and Chai.
     * [DELETE](https://github.com/Kc2693/BYOB/blob/master/README.md#delete-apiv1muscle-groups)
   * Exercises
     * [GET](https://github.com/Kc2693/BYOB/blob/master/README.md#get-apiv1exercises)
+    * [GET?QUERY](https://github.com/Kc2693/BYOB/blob/master/README.md#get-apiv1exerciseslevelbeginner)
     * [GET:ID](https://github.com/Kc2693/BYOB/blob/master/README.md#get-by-id-apiv1exercisesid)
     * [POST](https://github.com/Kc2693/BYOB/blob/master/README.md#post-apiv1exercises)
     * [PATCH](https://github.com/Kc2693/BYOB/blob/master/README.md#patch-apiv1exercisesid)
