@@ -35,21 +35,23 @@
       document.getElementById('token-textarea').innerHTML = JSON.stringify(token.token)
     }
 
-    function getToken(email, appName) {
-      const body = {email, appName};
+    async function getToken(email, appName) {
       const url = '/authenticate';
-      console.log(body);
-      const token = fetch(url, {
-        method:'POST',
-        headers:{
-          'Content-Type':'application/json',
-        },
-        body: JSON.stringify(body)
-      })
-        .then(response => response.json())
-        .catch(error => console.log('ERROR:',error))
 
-      return token;
+      try {
+        const response = await fetch(url, {
+          method:'POST',
+          body: JSON.stringify({email, appName}),
+          headers: {
+            'Content-Type':'application/json'
+          }
+        });
+        const token = await response.json();
+        console.log(token);
+        return token;
+      } catch (err) {
+        return {error: err.message}
+      }
     }
   </script>
   </body>
