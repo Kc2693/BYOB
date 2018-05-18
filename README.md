@@ -175,7 +175,7 @@ This project uses TravisCI, and is fully tested with Mocha and Chai.
   ]
   ```
 --- 
-#### GET `api/v1/exercises?Level=Beginner`  
+#### GET `api/v1/exercises?level=Beginner`  
   * Retrieves all exercises of a specified level (Beginner, Intermediate, or Advanced)
   * Response will contain an array of objects containing each exercise. 
   
