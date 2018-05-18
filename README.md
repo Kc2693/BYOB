@@ -1,17 +1,18 @@
 # BYOB [Build your own backend]
 #### By [Kailin Cannon](https://github.com/Kc2693) & [Aldo Mercado](https://github.com/amercado1014)
+#### LIVE on heroku: [Heroku Link](https://byob-1711.herokuapp.com/)
+
 
 ### Summary  
-This was a 5-day school project using Node, Knex, and Express to build our own API & to reinforce our understanding of CRUD methods, querying a database, and responding with JSON data. We decided to use fitness data. Our database has two tables, with a one-to-many relationship. One table for muscle groups, and one for individual exercises that relate to each group.  
+This was a 5-day school project using Node, Knex, and Express to build our own API & to reinforce our understanding of CRUD methods, querying a database, responding with JSON data, and learning how to authenticate with JWTs. We decided to use fitness data. Our database has two tables, with a one-to-many relationship. One table for muscle groups, and one for individual exercises that relate to each group.  
 
 This project uses TravisCI, and is fully tested with Mocha and Chai.
 
 -------
 
-
-
 ## Available Endpoints
- #### Table of Contents  
+ #### Table of Contents
+  * Getting a Token
   * Muscle Groups
     * [GET](https://github.com/Kc2693/BYOB/blob/master/README.md#get-apiv1muscle-groups)
     * [GET:ID](https://github.com/Kc2693/BYOB/blob/master/README.md#get-by-id-apiv1muscle-groupsid)
@@ -26,6 +27,14 @@ This project uses TravisCI, and is fully tested with Mocha and Chai.
     * [DELETE](https://github.com/Kc2693/BYOB/blob/master/README.md#delete-apiv1exercises)
 
 ---  
+
+### Getting a token
+  #### You may request a JSON web token by visiting the root URL of the application: ```/```
+  #### You must have admin access to be able to POST/PATCH/DELETE to this API.
+  
+
+
+---
 
 ### Muscle Groups (GET/GET:ID/POST/PATCH/DELETE)  
 
